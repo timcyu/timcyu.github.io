@@ -16,18 +16,23 @@
             padding: 20px;
             max-width: 900px;
             margin: 40px auto;
-            border-radius: 6px;
-            border: 1px solid #30363D; /* Border color */
         }
 
         a {
             color: #58A6FF; /* GitHub link color in dark mode */
+            text-decoration: none; /* Remove underline from links */
         }
 
+        /* Heading styles */
         h1, h2, h3, h4, h5, h6 {
             margin-top: 24px;
             margin-bottom: 16px;
             color: #FFFFFF; /* GitHub heading color in dark mode */
+        }
+
+        h1, h2 {
+            border-bottom: 1px solid #30363D; /* Add horizontal lines beneath h1 and h2 titles */
+            padding-bottom: 8px; /* Some padding to give space between the title and the line */
         }
 
         /* Add any other styles as needed */
@@ -37,3 +42,4 @@
     {{ content }} <!-- This is where the content of your markdown file will be inserted -->
 </body>
 </html>
+

@@ -6,7 +6,7 @@ layout: page
 
 I am a PhD student advised by Jesse Bloom at Fred Hutch. My work is supported by a NSF graduate research fellowship.
 
-My current interest is in the evolutionary dynamics of human influenza viruses. I am exploring how these viruses cleverly acquire mutations to elude our immune systems through a combination of experiment, computation, and theory.
+My current interest is in the evolutionary dynamics of human influenza viruses. I am exploring how these viruses cleverly acquire mutations to elude our immune systems through a blend of experiment, computation, and theory.
 
 ## Publications
 

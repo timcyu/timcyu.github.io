@@ -8,18 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
     <style>
-        /* Basic GitHub-like styles for dark mode */
         body {
             font-family: Arial, sans-serif;
-            background-color: #0D1117; /* GitHub dark mode background */
-            color: #C9D1D9; /* GitHub dark mode text color */
+            background-color: #0D1117;
+            color: #58a6ff;
             padding: 20px;
             max-width: 900px;
             margin: 40px auto;
         }
 
         a {
-            color: #58A6FF; /* GitHub link color in dark mode */
+            color: #58A6FF; 
             text-decoration: none; /* Remove underline from links */
         }
 
@@ -27,19 +26,17 @@
         h1, h2, h3, h4, h5, h6 {
             margin-top: 24px;
             margin-bottom: 16px;
-            color: #FFFFFF; /* GitHub heading color in dark mode */
+            color: #FFFFFF; 
         }
 
         h1, h2 {
-            border-bottom: 1px solid #30363D; /* Add horizontal lines beneath h1 and h2 titles */
-            padding-bottom: 8px; /* Some padding to give space between the title and the line */
+            border-bottom: 1px solid #30363D; 
+            padding-bottom: 8px; 
         }
-
-        /* Add any other styles as needed */
     </style>
 </head>
 <body>
-    {{ content }} <!-- This is where the content of your markdown file will be inserted -->
+    {{ content }}
 </body>
 </html>
 
